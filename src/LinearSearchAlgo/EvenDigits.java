@@ -20,6 +20,12 @@ if (even(x)){
         return noOfDigits(x) % 2 == 0;
     }
     private static int noOfDigits(int x) {
+        if (x<0){
+            x=x*-1;
+        }
+        if (x==0){
+            return 1;
+        }
         //two ways to count no of digits in number:
         //1. count the no of digits
         //2.convert into string and count the length
@@ -32,7 +38,7 @@ if (even(x)){
         return count;}
 
     public static void main(String[] args) {
-        int[] arr={12,345,2,6,7896};
+        int[] arr={12,345,2,6,-7896};
         System.out.println(findNumbersWithEvenNoOfDigits(arr));
     }
     }
