@@ -6,7 +6,10 @@ public class ReArrangingArrayInIncreasingAndDecreasingOrder {
     //rearrange the first half in increasing and second half in decreasing
 
 
-
+//O(nlogn) for sorting the array using Arrays.sort()
+    //and O(n) for printing the array
+    //tc: O(nlogn)+O(n)
+    //sc:O(1)
     public static void main(String[] args)
     {
         int[] arr={22,5,44,22,76,2,126,1,0};
