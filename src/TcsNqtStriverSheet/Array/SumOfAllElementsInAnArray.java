@@ -11,7 +11,7 @@ public class SumOfAllElementsInAnArray {
     }public static int sum(int[] arr){
         int count=0;
         for(int x:arr){
-            count=count+x;
+            count +=x;
         }
         return count;
     }
