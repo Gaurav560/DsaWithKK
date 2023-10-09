@@ -1,5 +1,8 @@
 package TcsNqtStriverSheet.Array;
 
+
+//time complexity: this is running for two passes .thus two O(N)+O(N)=O(2N)
+
 public class SecondLargestAndSmallestElementBetterApproach {
 
     public static void main(String[] args) {
@@ -21,12 +24,12 @@ int secondLargest=Integer.MIN_VALUE;
             }
 
         }
-        for (int i = 0; i < nums.length; i++) {
-            if (secondLargest<nums[i] && nums[i]!=largest){
-                secondLargest=nums[i];
-            }
+            for (int num : nums) {
+                if (secondLargest < num && num != largest) {
+                    secondLargest = num;
+                }
 
-        }
+            }
         System.out.println("second largest is "+secondLargest);}
     }
     public static void secondSmallest(int[] nums){
@@ -42,12 +45,12 @@ int smallest=nums[0];
 
         }
         int secondSmallest=Integer.MAX_VALUE;
-        for (int i = 0; i < nums.length; i++) {
-            if (secondSmallest>nums[i] && nums[i]!=smallest){
-                secondSmallest=nums[i];
-            }
+            for (int num : nums) {
+                if (secondSmallest > num && num != smallest) {
+                    secondSmallest = num;
+                }
 
-        }
+            }
         System.out.println("second smallest is ::"+secondSmallest);}
     }
 }
