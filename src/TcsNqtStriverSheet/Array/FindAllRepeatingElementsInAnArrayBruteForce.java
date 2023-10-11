@@ -11,7 +11,7 @@ import java.util.Arrays;
 public class FindAllRepeatingElementsInAnArrayBruteForce {
     public static void main(String[] args)
     {
-int[] arr={1,1,0};
+int[] arr={1,1,1,1,1,1,1,22,2,22,4,4};
 findRepeatedElements(arr);
        
     }
