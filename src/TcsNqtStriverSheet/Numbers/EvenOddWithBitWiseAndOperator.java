@@ -14,7 +14,8 @@ public class EvenOddWithBitWiseAndOperator {
 
     }public static void evenOrOddCheck(int n){
         if ((n &1)==0) System.out.println("even number");
-        else System.out.println("odd number");
+        else System.out.println("odd number is good ");
+
     }
 
 
