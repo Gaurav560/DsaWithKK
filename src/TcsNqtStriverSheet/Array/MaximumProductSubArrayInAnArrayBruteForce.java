@@ -1,4 +1,4 @@
-package TcsNqtStriverSheet.Array.TwoDArray;
+package TcsNqtStriverSheet.Array;
 
 public class MaximumProductSubArrayInAnArrayBruteForce {
 
