@@ -1,5 +1,7 @@
 package TcsNqtStriverSheet.Array;
 
+
+//tc:O(N)
 public class MaximumProductSubArrayOptimalApproach {
     public static void main(String[] args) {
         int[] arr={2,3,2,-2,0,1,5,0,-2,3};
