@@ -7,6 +7,8 @@ import java.util.Arrays;
 // and then we find the smallest element
 //in remaining array and swap with the first element of remaining array.
 //we loop till 2nd last element in outer loop and  to last element in inner loop .
+
+//tc for all cases will O(N**2)
 public class SelectionSort {
     public static void main(String[] args) {
 
