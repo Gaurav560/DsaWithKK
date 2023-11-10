@@ -1,4 +1,4 @@
-package StriverSheetDsa.LearnTheBasics.Sorting;
+package StriverSheetDsa.LearnImportantSortingTechniques.Sorting;
 
 import java.util.Arrays;
 
